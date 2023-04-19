@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Abhishek Gupta's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <span class="nav-link-01">
+                    <a class="nav-link-home " aria-current="page" href="#body">Home</a>
+                </span>
+                <span class="nav-link-02">  
+                    <a class="nav-link-about" href="#About Me">About</a>
+                </span>
+                <span class="nav-link-03">
+                    <a class="nav-link-hobbies" href="#My Hobbies">Hobbies</a>
+                </span>
+                <span class="nav-link-04">
+                    <a class="nav-link-contact" href="#contact"> Contact</a>
+                </span>
+            </div>
+        </nav>
+    </header>    
+    <div id="body" class="container1">
+        <div class="container2">
+            <img src="IMG_20211121_164922639_HDR.jpg" alt="Abhishek Gupta's Photo">
+            <h1> <pre> Hi, I'm Abhishek </pre></h1>
+            <p class="dynamic-content"> I am a <span id="dynamic-text" class="dynamic-text-color"> </span> </p>
+            <div class="social-links">    
+                <a href="https://www.facebook.com/" target="_blank"><img src="facebook_logo.png" alt="facebook-logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="Instagram_logo_2016.png" alt="instagram-logo"></a>
+                <a href="https://www.linkedin.com/in/abhishek-gupta-26505b225/" target="_blank"><img src="linkedin_logo.jpg" alt="linkedin-logo"></a>
+            </div>
+        </div>
+        <div id="About Me" class="container3">
+            <h2>About Me</h2>
+            <p>Currently, I am a student pursuing my B.Tech in Electronic and Communication Engineering. I have keen interest in IT sector and I want to become a good developer.</p>
+            <p> As of now I have learnt various tech skills like HTML, CSS, Bootstrap, JavaScript, Mysql, and React.</p>
+        </div>
+        <div id="My Hobbies" class="container4">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Solving Puzzles</li>
+                <li>Playing Cricket</li>
+                <li>Listning Music</li>
+            </ul>
+        </div>
+        <div id="contact" class="container5">
+            <form action="">
+                    <h2>Contact Me</h2>
+                    <div id="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="abc@gmail.com" required>
+                    </div>
+                    <div class="password">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="message">
+                        <label for="message">Type your message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"> Text area...</textarea> 
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+            </form>
+        </div>    
+    </div>
+    <footer> All Rights Reserved </footer>
+    <script src="index.js"></script>
+</body>
+</html>

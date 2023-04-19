@@ -1,0 +1,139 @@
+body{
+    margin: 0in;
+    background-color:#dd8f00;
+}
+@media (width:250px) and (orientation:portrait){
+    .container1{
+        width: 100%;
+    }
+    header{
+        margin-right: 0px;
+    }
+    textarea{
+        min-width: 150px;
+    }
+}
+.container1{
+    padding: 30px;
+    align-content: center;
+}
+.container2{
+    background-color: #0c393c;
+    margin: -30px;
+    padding: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;   
+}
+.container2 h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container2 img{
+    height: 7cm;
+    width: 7cm;
+    border-radius: 130px;
+}
+.social-links img{
+    border-radius: 6px;
+    height: 0.6cm;
+    width: 0.6cm;
+    margin: 6px;
+}
+.container3{
+    text-align: center;
+    margin-top: 50px;
+    color: #061662;
+}
+.container4{
+    text-align: center;
+    color: #061662;
+}
+.container4 ul{
+    display: inline-block;
+    margin-left: -20px;
+    margin-top: -10px;   
+}
+.container4 li{
+    padding: 6px;
+}
+.dynamic-text-color{
+    color: #dd8fff;
+}
+.dynamic-content{
+    font-size: 20px;
+    font-family: initial;
+}
+header{
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid rgb(212, 205, 205);
+}
+header{
+    background: #1477d1;
+    font-weight: bold;
+    max-width: 100%;
+    min-width: 100px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px;
+    margin: 0px;
+}
+footer{
+    background: #1477d1;
+    min-height: 30px;
+    min-width:100% ;
+}
+.nav-link-01, .nav-link-02, .nav-link-03,.nav-link-04{
+    padding: 6px;
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+}
+span>a{
+    text-decoration: none;
+    color: white;
+}
+span>a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.nav-link-04{
+    padding-right: 20px;
+}
+.container5{
+    background: #cccaca;
+    border: 1px solid black;
+    min-height: 30vh;
+    max-width: 400px;
+    padding: 2cqmin;
+    margin: auto;
+    border-radius: 16px;
+}
+div>label{
+    display: block;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+input#email,input#password,textarea{
+    min-width: 95%;
+}
+.submit{
+    text-align: center;
+}
+button{
+    color: #1477d1;
+    font-weight: bold;
+}
+button:hover{
+    color: black;
+    background-color: #dd8f00;
+}
+footer{
+    text-align: center;
+    font-style: oblique;
+}
